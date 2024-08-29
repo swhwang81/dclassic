@@ -554,15 +554,15 @@ img{
 /*---------------------------------------
      MAIN-BOOK             
   -----------------------------------------*/
- .main-book {
+ div.main-book {
    position:relative;
  }
- .main-book:nth-child(1) > img {
+ div.main-book:nth-child(1) > img {
 	 position:absolute;
 	 width: 60%;
 	 z-index:2;
  }
- .main-book:nth-child(2) > img {
+ div.main-book:nth-child(2) > img {
 	 position:absolute;
 	 width: 60%;
 	 left:200px; top:230px;
@@ -593,20 +593,7 @@ img{
     .email-link {
       font-size: 28px;
     }
-	  .main-book {
-   position:relative;
- }
- .main-book:nth-child(1) > img {
-	 position:absolute;
-	 width: 60%;
-	 z-index:2;
- }
- .main-book:nth-child(2) > img {
-	 position:absolute;
-	 width: 60%;
-	 left:200px; top:230px;
-	 z-index:1;
- }
+	
   }
 
   @media screen and (max-width: 992px) {
@@ -620,20 +607,7 @@ img{
       font-size: 22px;
       padding: 0.5rem 2rem 0.7rem 2rem;
     }
-	  .main-book {
-   position:relative;
- }
- .main-book:nth-child(1) > img {
-	 position:absolute;
-	 width: 60%;
-	 z-index:2;
- }
- .main-book:nth-child(2) > img {
-	 position:absolute;
-	 width: 60%;
-	 left:200px; top:230px;
-	 z-index:1;
- }
+	 
   }
 
   @media screen and (max-width: 991px) {
