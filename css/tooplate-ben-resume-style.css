@@ -107,6 +107,10 @@ https://www.tooplate.com/view/2120-ben-resume
     line-height: 2em;
   }
 
+img{
+	box-shadow: 3px 3px 3px lightgray;
+}
+
   .section-padding {
     padding: 6rem 0;
   }
@@ -303,6 +307,9 @@ https://www.tooplate.com/view/2120-ben-resume
   -----------------------------------------*/
 
   .hero-title,
+ .email-link {
+	 box-shadow: 3px 3px 3px lightgray;
+ }
   .email-link {
     background: var(--dark-color);
     border-radius: var(--border-radius-medium);
