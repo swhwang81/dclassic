@@ -565,6 +565,7 @@ img{
  .main-book:nth-child(2) {
 	 position:absolute;
 	 width: 60%;
+	 left:200px; top:230px;
 	 z-index:1;
  }
 
@@ -603,6 +604,7 @@ img{
  .main-book:nth-child(2) {
 	 position:absolute;
 	 width: 60%;
+	 left:200px; top:230px;
 	 z-index:1;
  }
   }
@@ -629,6 +631,7 @@ img{
  .main-book:nth-child(2) {
 	 position:absolute;
 	 width: 60%;
+	 left:200px; top:230px;
 	 z-index:1;
  }
   }
