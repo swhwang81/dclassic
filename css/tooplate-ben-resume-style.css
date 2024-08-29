@@ -551,6 +551,22 @@ img{
     color: var(--dark-color);
   }
 
+/*---------------------------------------
+     MAIN-BOOK             
+  -----------------------------------------*/
+ .main-book {
+   position:relative;
+ }
+ .main-book:nth-child(1) {
+	 position:absolute;
+	 width: 60%;
+	 z-index:2;
+ }
+ .main-book:nth-child(2) {
+	 position:absolute;
+	 width: 60%;
+	 z-index:1;
+ }
 
   /*---------------------------------------
      RESPONSIVE STYLES              
@@ -608,9 +624,19 @@ img{
       position: relative;
       top: 1.5rem;
     }
-  .main-book{
-	  position:static;
-  }
+  .main-book {
+   position:static;
+ }
+ .main-book:nth-child(1) {
+	 position:static;
+	 width: 100%;
+	 z-index:0;
+ }
+ .main-book:nth-child(2) {
+	 position:static;
+	 width: 100%;
+	 z-index:0;
+ }
   }
 
   @media screen and (max-width: 480px) {
@@ -624,7 +650,17 @@ img{
       padding: 0.3rem 2rem 0.6rem 2rem;
     }
 
- .main-book{
-	  position:static;
-  }
+  .main-book {
+   position:static;
+ }
+ .main-book:nth-child(1) {
+	 position:static;
+	 width: 100%;
+	 z-index:0;
+ }
+ .main-book:nth-child(2) {
+	 position:static;
+	 width: 100%;
+	 z-index:0;
+ }
   }
