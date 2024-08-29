@@ -310,7 +310,7 @@ img{
  .email-link {
 	 box-shadow: 3px 3px 3px lightgray;
  }
-  .email-link {
+  .hero-title,.email-link {
     background: var(--dark-color);
     border-radius: var(--border-radius-medium);
     color: var(--white-color);
