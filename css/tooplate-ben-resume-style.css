@@ -593,6 +593,21 @@ img{
     .email-link {
       font-size: 28px;
     }
+
+   div.main-book {
+   position:relative;
+  }
+   div.main-book:nth-child(1)>img {
+	 position:absolute;
+	 width: 60%;
+	 z-index:2;
+  }
+  div.main-book:nth-child(2)>img {
+	 position:absolute;
+	 width: 60%;
+	 left:200px; top:230px;
+	 z-index:1;
+ }
 	
   }
 
@@ -607,6 +622,21 @@ img{
       font-size: 22px;
       padding: 0.5rem 2rem 0.7rem 2rem;
     }
+
+    div.main-book {
+   position:relative;
+  }
+   div.main-book:nth-child(1)>img {
+	 position:absolute;
+	 width: 60%;
+	 z-index:2;
+  }
+  div.main-book:nth-child(2)>img {
+	 position:absolute;
+	 width: 60%;
+	 left:200px; top:230px;
+	 z-index:1;
+ }
 	 
   }
 
@@ -619,6 +649,21 @@ img{
       display: inline-block;
       margin: 5px 0.5rem;
     }
+
+   div.main-book {
+   position:relative;
+  }
+   div.main-book:nth-child(1)>img {
+	 position:absolute;
+	 width: 60%;
+	 z-index:2;
+  }
+  div.main-book:nth-child(2)>img {
+	 position:absolute;
+	 width: 60%;
+	 left:200px; top:230px;
+	 z-index:1;
+ }
   }
 
   @media screen and (max-width: 768px) {
