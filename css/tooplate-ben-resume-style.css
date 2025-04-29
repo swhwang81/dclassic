@@ -321,7 +321,7 @@ img{
   }
 
   .email-link {
-    background: var(--primary-color);
+    background:#f7cc76c8;
     color: var(--dark-color);
     font-size: var(--h4-font-size);
     padding: 0.5rem 2rem 1rem 2rem;
@@ -333,7 +333,7 @@ img{
   }
 
   .small-link {
-    background: var(--primary-color); /* light violet */
+    background:#bad1f9; /* light violet */
     color: var(--dark-color); /* 기존 글자색 유지 (필요 시 변경 가능) */
     border-radius: var(--border-radius-medium);
     display: inline-block;
