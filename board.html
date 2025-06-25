@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>응원 게시판 - 인제대학교 멀티미디어학과</title>
+    <title>문의</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
@@ -27,34 +27,51 @@
         <div class="container">
             <h2 data-aos="fade-up">문의</h2>
             <div class="board-content">
-                <!-- 댓글 작성 폼 -->
-                <form class="comment-form" data-aos="fade-up">
-                    <textarea placeholder="메시지를 남겨주세요." required></textarea>
-                    <button type="submit">작성하기</button>
-                </form>
+                
+               
 
-                <!-- 댓글 목록 -->
-                <div class="comments-list">
-                    <div class="comment" data-aos="fade-up">
-                        <div class="comment-header">
-                            <span class="comment-author">김지원</span>
-                            <span class="comment-date">2024-03-15</span>
-                        </div>
-                        <p class="comment-content">멋진 작품들 기대하고 있습니다.</p>
-                        <div class="comment-actions">
-                            <button class="like-button">❤️ 12</button>
-                        </div>
-                    </div>
+                 
 
-                   
-
-                   
-                </div>
+                  
+               
             </div>
         </div>
     </section>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
+    <div style="margin:auto;width:70%;">
+    <div id="disqus_thread"></div>
+            <script>
+                /**
+                *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                /*
+                var disqus_config = function () {
+                this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+                */
+                (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+                s.src = 'https://orange3.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+        </div>
+
+  <!-- SCRIPTS -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/smoothscroll.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/custom.js"></script>
+
+  <script id="dsq-count-scr" src="//orange3.disqus.com/count.js" async></script>
+
 </body>
 </html> 
