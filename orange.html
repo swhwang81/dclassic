@@ -1,73 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
-    <title>오렌지3</title>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="Tooplate">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-
-    <!-- MAIN CSS -->
-    <link rel="stylesheet" href="css/tooplate-ben-resume-style.css">
-
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오렌지3 소개</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   
 </head>
-
-
 <body>
+    <!-- 네비게이션 바 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">데이터클래식</a>
+            <div class="nav-links">
+                <a href="index.html">홈</a>
+                <a href="index.html#intro">소개</a>
+                <a href="orange.html">강좌</a>
+                <a href="board.html">문의</a>
+            </div>
+        </div>
+    </nav>
 
-
-<!-- HERO -->
-<section class="hero d-flex flex-column justify-content-center align-items-center" id="intro">
-<br><br><br>
-    <div class="container">
-       <div class="row">
-
-             <div class="mx-auto col-lg-5 col-md-5 col-10">
-                 <img src="images/orange_lec.png" class="about-image img-fluid">
-             </div>
-
-              <div class="d-flex flex-column justify-content-center align-items-center col-lg-7 col-md-7 col-12">
-                   <div class="hero-text">
-
-                       <h1 class="hero-title">👋 Hello Orange3!</h1>
-                       <br>
-
-                       <a href="index.html" class="email-link">#Home</a>
-                       <a href="#about" class="email-link">#Class</a>
-                       <a href="#whattodo" class="email-link">#Why Orange3?</a>
-                       
-
-                     
-                   </div>
-               </div>
-
-       </div>
-   </div>
-</section>
-
-<section class="about section-padding" id="about">
-    <div class="container">
-        <div class="row">
-
-            <div class="col-lg-6 col-md-6 col-12">
-                <h3 class="mb-4">Orange3!</h3>
+    <!-- 졸업생 소개 섹션 -->
+    <section class="alumni-section">
+        <div class="container">
+            <h2 data-aos="fade-up">오렌지3 소개</h2>
+          
+           <div style="float:left; margin-right:50px;">
+                <a href ='https://product.kyobobook.co.kr/detail/S000212228244'>
+                    <img src="images/orange3.jpeg" class="about-image img-fluid" ></a>
+            </div>
                 <ul class="profile-list list-unstyled" > 
-                 <p >안녕하세요! 데이터 분석과 시각화에 관심이 있으신가요? <br>  
+                 <h3>안녕하세요! 데이터 분석과 시각화에 관심이 있으신가요? <br>  
                     오렌지3는 데이터 분석 및 시각화에 특화된 오픈 소스 툴로, 
                     프로그래밍 경험이 거의 없는 사람들도 직관적인 인터페이스를 통해 복잡한 데이터 분석 작업을 수행할 수 있게 도와줍니다.
                     오렌지3는 데이터 분석의 세계를 더욱 간편하고 접근하기 쉽게 만들어주는 훌륭한 도구입니다. 
-                    데이터에 관심이 있거나, 복잡한 코딩 없이 데이터 분석을 시도해보고 싶은 분들에게 추천드립니다!</p>
-                <!--
-                <li><a href ="https://www.notion.so/1-2c9fa0c88b1045adae9043dfd66b09fa">수업계획서</a></li><br>
-                -->
+                    데이터에 관심이 있거나, 복잡한 코딩 없이 데이터 분석을 시도해보고 싶은 분들에게 추천드립니다!</h3>
+                 <br>
+                 <br>
                 <li><b>다운로드: </b></li>
                 <li><a href ='https://orangedatamining.com/download/' target='_blank'>https://orangedatamining.com/download/</a></li>
                 <li><a href ='https://www.anaconda.com/download' target='_blank'>https://www.anaconda.com/download</a></li>
@@ -94,121 +65,17 @@
                     <li><strong>Full Name :</strong> Soonwook Hwang </li>
                     <li><strong>small :</strong> swhwang81@gmail.com</li>
                 </ul>
-            </div>
-            
-            <div class="col-lg-5 mx-auto col-md-6 col-12">
-                <a href ='https://product.kyobobook.co.kr/detail/S000212228244'>
-                    <img src="images/orange3.jpeg" class="about-image img-fluid" ></a>
-            </div>
-
-        </div> 
-        <br><br>
-        <h2 class="mb-4" id="whattodo">What is Orange3!</h2>
-        <div class="row about-third">
-        <div class="col-lg-4 col-md-4 col-12" >
-        <br>
-        <h3 >What is Orange3?</h3>
-        <p>오렌지3는 데이터 마이닝 및 시각화를 위한 오픈 소스 툴킷입니다. 그래픽 사용자 인터페이스를 통해 사용자는 드래그 앤 드롭 방식으로 데이터 분석 워크플로우를 구성할 수 있습니다.</p>
-        <img src="images/orange1.png" class="img-fluid about-image">    
-        </div>
-        <div class="col-lg-4 col-md-4 col-12" >
-        <br>
-        <h3 >누가 오렌지3을 사용하나요?</h3>
-        <p>오렌지3는 학계, 연구 기관, 기업 등 다양한 분야에서 활용되고 있습니다. 특히 데이터 분석에 입문하는 사람들이나 프로그래밍 경험이 적은 사람들에게 인기가 있습니다.</p>
-        <img src="images/testimonials/text-topics.png" class="img-fluid about-image" > 
-        </div>
-        <div class="col-lg-4 col-md-4 col-12" >
-            <br>
-            <h3 >왜 오렌지3이 필요할까요?</h3>
-            <p>데이터는 현대 사회에서 중요한 자산으로 자리 잡았습니다. 그러나 데이터 자체는 큰 의미를 갖지 않습니다.
-            그 데이터로부터 의미 있는 정보와 지식을 추출하는 것이 중요하고, 그 과정에서 오렌지3와 같은 도구는 중요한 역할을 합니다. 
-             오렌지3는 복잡한 프로그래밍 없이도 데이터를 직관적으로 분석하고 시각화할 수 있게 도와주므로, 데이터 분석의 접근성을 높여줍니다.
-
-            </p>
-        </div>
-
-        </div>
-
-        
-        <h2 class="mb-4" id="whattodo">What can we do with Orange3!</h2>
-        <div class="row about-third">
-            <div class="col-lg-4 col-md-4 col-12">
-            <br>
-            <h3 >데이터 시각화</h3>
-            <p>데이터를 다양한 그래프와 차트로 시각화하여 데이터의 패턴이나 특징을 쉽게 파악할 수 있습니다.</p>
-            <img src="images/testimonials/chart.png" class="img-fluid about-image">
-            </div>
-            <div class="col-lg-4 col-md-4 col-12">
-            <br>
-            <h3 >데이터 전처리</h3>
-            <p>결측치 처리, 정규화, 스케일링 등 데이터를 분석하기 좋은 형태로 가공하는 도구가 제공됩니다.</p>
-            <img src="images/testimonials/data1.jpg" class="img-fluid about-image">
-            </div>
-            <br>
-            <div class="col-lg-4 col-md-4 col-12">
-            <br>
-            <h3 >데이터 분석</h3>
-             <p>통계 분석, 군집 분석, 분류, 회귀 등 다양한 기계 학습 알고리즘을 적용하여 데이터를 분석할 수 있습니다.</p>
-            <img src="images/testimonials/ai.jpg" class="img-fluid about-image">
-            </div>
-            <br>
-            <div class="col-lg-4 col-md-4 col-12">
-            <br>
-            <h3 >인공 지능 및 머신러닝</h3>
-            <p>TensorFlow, PyTorch, scikit-learn과 같은 라이브러리를 사용하여 다양한 머신러닝 모델을 구축하고 학습시킬 수 있습니다.</p>
-            <img src="images/testimonials/ai.jpg" class="img-fluid about-image">
-            </div>
-            <div class="col-lg-4 col-md-4 col-12">
-            <br>
-            <h3 >자연어 분석</h3>
-            <p>워드 클라우드, 감정분석, 동시출현네트워크, 토픽모델링과 같은 분석 방법을 톻해 텍스트 데이터를 분석할 수 있습니다.</p>
-            <img src="images/testimonials/social.jpg" class="img-fluid about-image">
-            </div>
-            <div class="col-lg-4 col-md-4 col-12">
-                <br>
-                <h3 >실습 예제</h3>
-                <p>동물의 감정을 판별해보자!</p>
-                <img src="images/teachable_qr.png" class="about-image img-fluid">
-                </div>
            
             
+            <h3 style="clear:both;">실습 예제</h3>
+                <p>동물의 감정을 판별해보자!</p>
+                <img src="images/teachable_qr.png" class="about-image img-fluid">
+
         </div> 
-    
-</section>
-
-
-
-<div style="margin:auto;width:70%;">
-    <div id="disqus_thread"></div>
-            <script>
-                /**
-                *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-                *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-                /*
-                var disqus_config = function () {
-                this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-                this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-                };
-                */
-                (function() { // DON'T EDIT BELOW THIS LINE
-                var d = document, s = d.createElement('script');
-                s.src = 'https://orange3.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', +new Date());
-                (d.head || d.body).appendChild(s);
-                })();
-            </script>
-            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-
         </div>
+    </section>
 
-  <!-- SCRIPTS -->
-  <script src="js/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/smoothscroll.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/custom.js"></script>
-
-  <script id="dsq-count-scr" src="//orange3.disqus.com/count.js" async></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
 </body>
-</html>
+</html> 

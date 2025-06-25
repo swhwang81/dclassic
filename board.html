@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>응원 게시판 - 인제대학교 멀티미디어학과</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- 네비게이션 바 -->
+    <!-- 네비게이션 바 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">데이터클래식</a>
+            <div class="nav-links">
+                <a href="index.html">홈</a>
+                <a href="index.html#intro">데이터 분석</a>
+                <a href="orange.html">강좌</a>
+                <a href="board.html">문의</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 게시판 섹션 -->
+    <section class="board-section">
+        <div class="container">
+            <h2 data-aos="fade-up">문의</h2>
+            <div class="board-content">
+                <!-- 댓글 작성 폼 -->
+                <form class="comment-form" data-aos="fade-up">
+                    <textarea placeholder="메시지를 남겨주세요." required></textarea>
+                    <button type="submit">작성하기</button>
+                </form>
+
+                <!-- 댓글 목록 -->
+                <div class="comments-list">
+                    <div class="comment" data-aos="fade-up">
+                        <div class="comment-header">
+                            <span class="comment-author">김지원</span>
+                            <span class="comment-date">2024-03-15</span>
+                        </div>
+                        <p class="comment-content">멋진 작품들 기대하고 있습니다.</p>
+                        <div class="comment-actions">
+                            <button class="like-button">❤️ 12</button>
+                        </div>
+                    </div>
+
+                    <div class="comment" data-aos="fade-up" data-aos-delay="100">
+                        <div class="comment-header">
+                            <span class="comment-author">이수진</span>
+                            <span class="comment-date">2024-03-14</span>
+                        </div>
+                        <p class="comment-content">모두의 노력이 빛나는 전시회가 될 것 같아요. 화이팅!</p>
+                        <div class="comment-actions">
+                            <button class="like-button">❤️ 8</button>
+                        </div>
+                    </div>
+
+                    <div class="comment" data-aos="fade-up" data-aos-delay="200">
+                        <div class="comment-header">
+                            <span class="comment-author">박민준</span>
+                            <span class="comment-date">2024-03-13</span>
+                        </div>
+                        <p class="comment-content">졸업 전시회를 통해 여러분의 열정과 창의성을 보여주세요!</p>
+                        <div class="comment-actions">
+                            <button class="like-button">❤️ 15</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
