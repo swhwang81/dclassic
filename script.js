@@ -178,7 +178,7 @@ scene.add(pointLight);
 camera.position.z = 5;
 
 // 3D 텍스트 관련 변수
-const texts = ['UI', 'UX', '3D', 'App', 'Web', 'AI', 'Design'];
+const texts = ['UI', 'UX', '3D', 'App', 'Web', 'AI', 'Analysis','Data'];
 const textObjects = [];
 let font;
 
